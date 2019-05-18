@@ -13,7 +13,7 @@ app.use(
   })
 );
 
-const mongoURI = "mongodb://localhost:27017/mernlogin";
+const mongoURI = "mongodb://host:port/db_name"; //to be changed
 mongoose
   .connect(mongoURI, { useNewUrlParser: true })
   .then(() => console.log("Mongodb Connected"))
