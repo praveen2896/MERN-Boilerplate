@@ -19,14 +19,6 @@ mongoose
   .then(() => console.log("Mongodb Connected"))
   .catch(err => console.log(err));
 
-// app.get("/api/customers", (req, res) => {
-//   const customers = [
-//     { id: 1, firstname: "john", lastname: "bruto" },
-//     { id: 2, firstname: "praveen", lastname: "kumar" },
-//     { id: 3, firstname: "john", lastname: "stark" }
-//   ];
-//   res.json(customers);
-// });
 var Users = require("./routes/Users");
 
 app.use("/users", Users);
