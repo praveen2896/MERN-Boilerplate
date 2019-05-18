@@ -1,4 +1,4 @@
-# Reactexpress_Boilerplate
+# Mern_Boilerplate
 React with express starter
 
 This is a boilerplate project using the following technologies:
@@ -13,7 +13,7 @@ This is a boilerplate project using the following technologies:
 
 Steps:
 
-1. git clone https://github.com/praveen2896/reactexpress_Boilerplate.git
+1. git clone https://github.com/praveen2896/MERN-Boilerplate.git
 
 2. cd reactexpress_boilerplate
 
